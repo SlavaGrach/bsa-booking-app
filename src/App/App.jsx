@@ -1,9 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
+import { AppBar } from '../components'
 import { MainPage, BookingsPage, TripPage, SignIn, SignUp } from '../pages'
 
 function App() {
   return (
     <>
+      <AppBar />
       <Routes>
         <Route path="/" element={<MainPage />}></Route>
         <Route path="/bookings" element={<BookingsPage />}></Route>
