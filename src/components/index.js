@@ -7,6 +7,7 @@ import TripCard from './Trips/TripCard/TripCard'
 import TripDetail from './Trips/TripDetail/TripDetail'
 import BookingsList from './Bookings/BookingList/BookingList'
 import BookingCard from './Bookings/BookingCard/BookingCard'
+import Sign from './Sign/Sign'
 
 export {
   AppBar,
@@ -18,4 +19,5 @@ export {
   TripDetail,
   BookingsList,
   BookingCard,
+  Sign,
 }

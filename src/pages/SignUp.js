@@ -1,7 +1,8 @@
 import React from 'react'
+import { Sign } from '../components'
 
 const SignUp = () => {
-  return <div>SignUp</div>
+  return <Sign isSignPage={false} />
 }
 
 export default SignUp

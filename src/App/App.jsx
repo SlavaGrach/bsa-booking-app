@@ -11,8 +11,8 @@ function App() {
         <Route path="/" element={<MainPage />}></Route>
         <Route path="/bookings" element={<BookingsPage />}></Route>
         <Route path="/trip/:tripId" element={<TripPage />}></Route>
-        <Route path="/sign-in" element={SignIn}></Route>
-        <Route path="/sign-up" element={SignUp}></Route>
+        <Route path="/sign-in" element={<SignIn />}></Route>
+        <Route path="/sign-up" element={<SignUp />}></Route>
         <Route path="*" element={<MainPage />}></Route>
       </Routes>
       <Footer />
