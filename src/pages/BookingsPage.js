@@ -1,7 +1,8 @@
 import React from 'react'
+import { BookingsList } from '../components'
 
 const BookingsPage = () => {
-  return <div>BookingsPage</div>
+  return <BookingsList />
 }
 
 export default BookingsPage
