@@ -9,17 +9,15 @@ const Navigation = () => {
     <NavHeader>
       <NavList>
         <NavItem>
-          <Wrapper>
-            <NavLink to="/bookings">
-              <span className="visually-hidden">Bookings</span>
+          <NavLink to="/bookings">
+            <Wrapper>
               <img src={briefcase} alt="Bookings" />
-            </NavLink>
-          </Wrapper>
+            </Wrapper>
+          </NavLink>
         </NavItem>
 
         <NavItem>
           <Wrapper>
-            <span className="visually-hidden">Profile</span>
             <img src={user} alt="Profile" />
           </Wrapper>
         </NavItem>
