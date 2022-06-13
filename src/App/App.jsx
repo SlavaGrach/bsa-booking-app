@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import { AppBar } from '../components'
+import { AppBar, Footer } from '../components'
+
 import { MainPage, BookingsPage, TripPage, SignIn, SignUp } from '../pages'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/sign-up" element={SignUp}></Route>
         <Route path="*" element={<MainPage />}></Route>
       </Routes>
+      <Footer />
     </>
   )
 }
