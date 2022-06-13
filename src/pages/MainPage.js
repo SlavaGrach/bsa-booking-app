@@ -1,10 +1,11 @@
 import React from 'react'
-import { SearchForm } from '../components'
+import { SearchForm, TripList } from '../components'
 
 const MainPage = () => {
   return (
     <>
       <SearchForm />
+      <TripList />
     </>
   )
 }
