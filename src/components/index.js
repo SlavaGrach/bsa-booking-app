@@ -4,5 +4,14 @@ import Footer from './Footer/Footer'
 import SearchForm from './SearchForm/SearchForm'
 import TripList from './Trips/TripList/TripList'
 import TripCard from './Trips/TripCard/TripCard'
+import TripDetail from './Trips/TripDetail/TripDetail'
 
-export { AppBar, Navigation, Footer, SearchForm, TripList, TripCard }
+export {
+  AppBar,
+  Navigation,
+  Footer,
+  SearchForm,
+  TripList,
+  TripCard,
+  TripDetail,
+}
