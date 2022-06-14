@@ -20,4 +20,5 @@ export {
   BookingsList,
   BookingCard,
   Sign,
+  PopUpProfile,
 }
